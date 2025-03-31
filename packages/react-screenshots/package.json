@@ -1,6 +1,6 @@
 {
-  "name": "react-screenshots",
-  "version": "0.5.22",
+  "name": "ade-react-screenshots",
+  "version": "0.5.28",
   "description": "a screenshot cropper tool by react",
   "main": "./lib/react-screenshots.cjs.js",
   "module": "./lib/react-screenshots.es.js",
@@ -64,5 +64,6 @@
     "rimraf": "^4.4.1",
     "typescript": "^5.0.2",
     "vite": "^4.2.1"
-  }
+  },
+  "gitHead": "bdc8eb2da0527bd6f82e81c35bc41422adfa955f"
 }

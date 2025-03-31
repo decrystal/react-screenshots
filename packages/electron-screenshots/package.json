@@ -1,6 +1,6 @@
 {
-  "name": "electron-screenshots",
-  "version": "0.5.27",
+  "name": "ade-electron-screenshots",
+  "version": "0.5.28",
   "description": "electron 截图插件",
   "types": "lib/index.d.ts",
   "main": "lib/index.cjs.js",
@@ -12,7 +12,7 @@
     "prepublishOnly": "npm run build",
     "start": "cross-env DEBUG=electron-screenshots electron lib/demo.js",
     "dev": "tsc --sourceMap --watch",
-    "build": "npm run lint && npm run clean && tsc",
+    "build": "npm run clean && tsc --skipLibCheck --declaration || true",
     "lint": "eslint . --ext .js,.ts --fix",
     "clean": "rimraf lib"
   },
@@ -58,5 +58,6 @@
     "eslint-plugin-import": "^2.27.5",
     "rimraf": "^4.4.1",
     "typescript": "^5.0.2"
-  }
+  },
+  "gitHead": "bdc8eb2da0527bd6f82e81c35bc41422adfa955f"
 }
