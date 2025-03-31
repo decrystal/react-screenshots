@@ -1,5 +1,5 @@
 {
-  "name": "ade-electron-screenshots",
+  "name": "@ade/electron-screenshots",
   "version": "1.0.0",
   "description": "electron 截图插件",
   "types": "lib/index.d.ts",
